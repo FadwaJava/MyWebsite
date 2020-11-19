@@ -71,7 +71,7 @@ form{
     grid-row: 2/4;
     height: auto;
     width : 600px;
-    background-color: brown;    
+    background-color: rgb(175, 99, 159);    
     padding: 2em;
     border: 1px solid rgb(177, 56, 56);
     border-radius: 1em;
@@ -115,7 +115,7 @@ label {
 nav{
     grid-column: 1/5;
     grid-row: 1/2;
-    background-color: darkgoldenrod;
+    background-color: rgb(214, 162, 194);
     margin: 30px;
     border-radius: 1em;
     text-align: right;
@@ -159,3 +159,14 @@ ul li {
 h2{
     text-align:center
 }
+
+.littlelinks{
+     color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+  }
+  #portrait{
+      margin-right: 30px;
+      grid-column: 4;
+      grid-row: 2/4;
+  }
